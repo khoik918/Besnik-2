@@ -366,7 +366,7 @@ nav {
 /* ===============Courses=============== */
 
 .courses {
-    padding: 65px 0 130px;
+    padding: 65px 0;
 }
 
 .courses__row {
@@ -401,6 +401,7 @@ nav {
 }
 
 .course__item {
+    padding-bottom: 124px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -428,7 +429,7 @@ nav {
 
 .course-item__body {
     position: absolute;
-    bottom: -124px;
+    bottom: 0;
     min-width: 325px;
     padding: 18px 25px 29px;
     border-radius: 8px;
@@ -500,8 +501,8 @@ nav {
 /* ===============countdown=============== */
 
 .countdown {
-    margin: 135px 0 135px 0;
-    padding: 130px 0;
+    margin: 100px 0;
+    padding: 100px 0;
 }
 
 .countdown__list {
@@ -531,7 +532,7 @@ nav {
 /* ===============Feedback=============== */
 
 .feedback {
-    padding: 65px 0 130px;
+    padding: 65px 0;
 }
 
 .feedback__inner {
@@ -644,6 +645,7 @@ nav {
 
 .cta {
     padding: 76px 0 88px 0;
+    margin: 65px 0;
     background: #def6f5;
 }
 
@@ -659,7 +661,7 @@ nav {
 /* ===============Footer=============== */
 
 .footer {
-    padding: 130px 0 50px;
+    padding: 65px 0 50px;
 }
 
 .footer__inner {
